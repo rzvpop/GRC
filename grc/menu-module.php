@@ -1,6 +1,6 @@
 <?php
 	include "cust-list.php";
-	$page_name = $_GET["page"];
+
 	if($page_name=="home" || $page_name ==""){
 
         $menu = new CustomMenu("");
@@ -16,5 +16,7 @@
             <?php
         }
     }
+    else {
 
+	}
 ?>
