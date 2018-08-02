@@ -26,17 +26,17 @@
 <!--		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
 	</head>
 	<body>
-		<div>
+		<div class="row">
 		<?php
 			include "./menu-module.php";
 			?>
-			<div>
+        </div>
+        <div>
 			<?php
 			if(file_exists("./{$page_name}.php"))
 				include "./{$page_name}.php";
 			?>
-			</div>
-		</div>
+        </div>
 		<div style='float: right;'> <a href="./" class="button1"><i class="fa fa-home"></i>  Înapoi la pagina principală </a></div>
 		<?php
 			die();
