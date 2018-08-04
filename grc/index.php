@@ -38,8 +38,17 @@
 			if(file_exists("./{$page_name}.php"))
 				include "./{$page_name}.php";
 			?>
+
         </div>
-		<div style='float: right;'> <a href="./" class="button1"><i class="fa fa-home"></i>  Înapoi la pagina principală </a></div>
+        <?php
+        if($page_name!="home" && $page_name != "")
+        {
+            ?>
+
+            <div style="float: right"> <a href="./" class="button1"><i class="fa fa-home"></i>  Înapoi la pagina principală </a></div>
+            <?php
+        }
+        ?>
 		<?php
 			die();
 		?>
