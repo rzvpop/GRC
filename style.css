@@ -7,13 +7,14 @@
 html
 {
     height: 100%;
+    overflow: auto;
 }
 
 body
 {
     height: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background: linear-gradient(to bottom, white, rgba(0, 30, 0, 0.8));
 }
 
@@ -112,6 +113,9 @@ input[type="submit"]
     border-color: rgba(50,110,100, 0.5);
     background: rgba(255, 255, 255, 0.3);
     transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
 }
 
 input[type="submit"]:hover
