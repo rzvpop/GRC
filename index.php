@@ -27,6 +27,20 @@
 <!--		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
 	</head>
 	<body>
+		<div class='centred-row text-cascade'>
+			<div>G</div>
+			<div>a</div>
+			<div>R</div>
+			<div>a</div>
+			<div>C</div>
+			<div>o</div>
+			<div style='width: 20px;'></div>
+			<div>S</div>
+			<div>m</div>
+			<div>a</div>
+			<div>r</div>
+			<div>t</div>
+		</div>
 		<div>
 			<div class='centred-row'>
 			<?php
