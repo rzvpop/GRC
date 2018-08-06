@@ -13,6 +13,7 @@
 
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" type="image/ico" href="./imagini/icon.png">
@@ -48,7 +49,7 @@
 				if($page_name != 'home'  && $page_name != '')
 					$small = 'small-';
 					
-				include "./{$small}menu-module.php";
+				include "./modules/{$small}menu-module.php";
 			?>
 			</div>
 			</div>

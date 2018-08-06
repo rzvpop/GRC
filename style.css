@@ -120,9 +120,19 @@ input[type="submit"]
 
 input[type="submit"]:hover
 {
-    transform: scale(1.03) rotate(15deg);
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+input[type="text"]
+{
+    width: 20vw;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+input [type="text"]:focus
+{
+    background: rgba(255, 255, 255, 0.8);
 }
 
 textarea
