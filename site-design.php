@@ -3,7 +3,7 @@
 	<br><br>
 	<textarea name='additional' form='mail_form' placeholder='Scurta descriere si cerinte...'></textarea>
 	<br>
-	<input type='submit' value='Inainteaza solicitarea'>
+	<input type='submit' style="width: 14vw" value='Inainteaza solicitarea'>
 </form>
 
 <br>
