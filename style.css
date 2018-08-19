@@ -268,8 +268,35 @@ input[type="checkbox"]:disabled:after {
 
 .title {
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto", serif;
     font-size: 30px;
+}
+.success {
+    padding: 20px;
+    margin-bottom: 15px;
+    background: rgba(63, 225, 55, 0.3);
+    font-family: "Roboto", sans-serif;
+}
+
+.fail {
+    padding: 20px;
+    background: rgba(255, 99, 71, 0.5);
+    font-family: "Roboto", sans-serif;
+}
+
+.close-alert-btn {
+    margin-left: 15px;
+    font-size: 25px;
+    color: #7C7B83;
+    cursor: pointer;
+    float: right;
+    font-family: "Roboto", sans-serif;
+    line-height: 20px;
+    transition: 0.3s;
+}
+
+.close-alert-btn:hover {
+    color: black;
 }
 
 .text-cascade div:nth-child(1) {animation: ch-fall 0.5s ease-out 0s; animation-fill-mode: forwards;}
@@ -301,6 +328,7 @@ input[type="checkbox"]:disabled:after {
 .cls:nth-of-type(2) {animation-delay: 1s;};
 .cls:nth-of-type(3) {animation-delay: 2s;};
 */
+
 
 @keyframes ch-fall
 {

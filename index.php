@@ -29,6 +29,11 @@
 <!--		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
 	</head>
 	<body>
+	<div class="success">
+	    <span class="close-alert-btn" onclick="this.parentElement.style.display='none';">&times;</span>
+	    Aici fds
+	 </div>
+
 <!--		<div class='centred-row text-cascade'>-->
             <div class='centred-row'><h1 class="title">GaRaCo Smart</h1></div>
 <!--			<div>G</div>-->
