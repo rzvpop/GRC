@@ -31,7 +31,7 @@
 		function Display()
 		{
 			echo "<div class='" . $this->type . "'>";
-			echo "<span class='close-alert-btn' onclick='this.parentElement.style.display='none';'>&times;</span>";
+			echo "<span class='close-alert-btn' onclick=" . "this.parentElement.style.display='none';" . ">&times;</span>";
 			echo $this->text;
 			echo "</div>";
 		}
