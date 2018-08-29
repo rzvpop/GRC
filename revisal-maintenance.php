@@ -8,7 +8,7 @@
 	<!--toate-->
 	<textarea form='mail_form' name='additional' placeholder='Alte solicitari...'></textarea>
 	<br>
-    </span><input type='submit' style="width: 14vw" id='sub' value='Inainteaza solicitarea' disabled='true'>
+    <button type='submit' id='sub' disabled><span class="glyphicon glyphicon-send"></span>  Inainteaza solicitarea  </button>
 
 </form>
 </div>

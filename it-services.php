@@ -7,6 +7,6 @@
     <br><br>
     <!--toate-->
     <textarea form='mail_form' name='additional' placeholder='Alte solicitari...'></textarea>
-    <input type='submit' id='sub' style="width: 14vw" value='Inainteaza solicitarea' disabled='true'>
+    <button type='submit' id='sub' disabled><span class="glyphicon glyphicon-send"></span>  Inainteaza solicitarea  </button>
 </form>
 </div>

@@ -103,10 +103,9 @@ div
     text-align: center;
     clear: both;
     max-height: 300px;
-    
 }
 
-input[type="submit"]
+button[type="submit"]
 {
     background: rgba(255, 255, 255, 0.3);
     cursor: pointer;
@@ -127,7 +126,11 @@ input[type="submit"]
     transition: all 0.2s;
 }
 
-input[type="submit"]:hover
+button[type="submit"]:disabled {
+    opacity: 0.6;
+}
+
+button[type="submit"]:hover:enabled
 {
     color: #ffffff;
     background-color:#7C7B83;

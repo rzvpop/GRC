@@ -5,6 +5,5 @@
 	<br><br>
 	<textarea name='additional' form='mail_form' placeholder='Scurta descriere si cerinte...'></textarea>
 	<br>
-	<input type='submit' id='sub' style="width: 14vw" value='Inainteaza solicitarea' disabled='true'>
-</form>
+    <button type='submit' id='sub' disabled><span class="glyphicon glyphicon-send"></span>  Inainteaza solicitarea  </button></form>
 </div>

@@ -54,7 +54,7 @@
 <!--			<div>t</div>-->
 <!--		</div>-->
 
-			<div class='centred-row' style="width: 73%">
+			<div class="centred-row" style="width: 72%">
 			<?php
 				$small = '';
 				if($page_name != 'home'  && $page_name != '')
@@ -62,21 +62,21 @@
 				include "./modules/{$small}menu-module.php";
 			?>
 			</div>
-
-			<div style='height: 30px;' class='row'>
+			<div class='row'>
 			<?php
 				if(file_exists("./{$page_name}.php"))
 					include "./{$page_name}.php";
 			?>
-		    </div>
+
 			<?php
 			if($page_name != "home" && $page_name != "")
 				{
 			?>
-					<div style='float: right;'> <a href="./" class="button1"><i class="fa fa-home"></i>  Înapoi la pagina principală </a></div>
+					<div style="float: right"> <a href="./" class="button1"><i class="fa fa-home"></i>  Înapoi la pagina principală </a></div>
 		<?php
 				}
 			die();
 		?>
+            </div>
 	</body>
 </html>
